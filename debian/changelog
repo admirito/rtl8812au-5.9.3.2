@@ -1,0 +1,120 @@
+rtl8812au (5.9.3.2-2) focal; urgency=medium
+
+  * Import the latest version from gordboy/rtl8812au-5.9.3.2 github
+
+ -- Mohammad Razavi <mrazavi64@gmail.com>  Sun, 14 Nov 2021 20:58:31 +0330
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu13~20.04.3) focal; urgency=medium
+
+  * Backported from Hirsute 4.3.8.12175.20140902+dfsg-0ubuntu14 (LP: #1932169)
+    - Fix FTBFS with Linux 5.10
+      Added 0001-switch-readFile-writeFile-to-kernel_read-kernel_writ.patch
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 24 Jun 2021 17:42:57 +0000
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu13~20.04.2) focal; urgency=medium
+
+  * No change rebuild in security pocket. LP: #1914279.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Thu, 29 Apr 2021 16:08:52 +0100
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu13~20.04.1) focal; urgency=medium
+
+  * Linux 5.8 compatibility. (LP: #1900180)
+    - debian/patches/5.8-kernel-compatibility.patch
+    - debian/patches/LINUX-5.8-rename-struct-sha256-to-rtl_sha256-and-ret.patch
+
+ -- Kelsey Skunberg <kelsey.skunberg@canonical.com>  Sun, 15 Nov 2020 22:18:57 +0000
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu12) eoan; urgency=medium
+
+  * Correct ARCH= setting for arm64.
+  * Correct checksum include, fixing FTBFS on arm64.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 20 Jul 2019 13:56:02 -0300
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu11) eoan; urgency=medium
+
+  * Linux 5.2 compatibility.
+    - debian/patches/5.1-kernel-compatibility.patch
+    - debian/patches/5.2-kernel-compatibility.patch
+
+ -- Thadeu Lima de Souza Cascardo <cascardo@canonical.com>  Tue, 04 Jun 2019 16:14:44 -0300
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu10) disco; urgency=medium
+
+  * Linux 4.20 and 5.0 compatibility (LP: #1813068)
+    - debian/patches/4.20-kernel-compatibility.patch
+    - debian/patches/5.0-kernel-compatibility.patch
+
+ -- Marcelo Henrique Cerri <marcelo.cerri@canonical.com>  Wed, 06 Feb 2019 14:37:17 -0200
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu9) disco; urgency=medium
+
+  * Linux 4.19 compatibility (LP: #1802012)
+    - debian/patches/4.19-kernel-compatibility.patch
+
+ -- Thadeu Lima de Souza Cascardo <cascardo@canonical.com>  Tue, 06 Nov 2018 21:07:31 -0200
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu8) bionic; urgency=medium
+
+  * Linux 4.15 compatibility (LP: #1737756)
+    - debian/patches/4.15-kernel-compatibility.patch
+
+ -- Marcelo Henrique Cerri <marcelo.cerri@canonical.com>  Thu, 08 Feb 2018 17:30:41 +0000
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu7) artful; urgency=medium
+
+  * Linux 4.11.9 compatibility (LP: #1707219)
+    - debian/patches/4.11.9-kernel-compatibility.patch
+  * Linux 4.12 compatibility (LP: #1703617)
+    - debian/patches/4.12-kernel-compatibility.patch
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 28 Jul 2017 11:16:01 -0500
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu6) artful; urgency=medium
+
+  * Linux 4.11 compatibility (LP: #1691845)
+    - debian/patches/4.11-kernel-compatibility.patch
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 10 Jul 2017 14:47:46 -0500
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu5) zesty; urgency=medium
+
+  * linux v4.9 compatibility
+    debian/patches/cfg80211-scan-done.patch
+    debian/patches/nl-enum.patch
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 15 Dec 2016 12:02:38 -0700
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu4) yakkety; urgency=medium
+
+  * Enabling CFG80211 and RTL8821A
+  * Extending list of compatible vendors
+
+ -- Ricardo Salveti de Araujo <rsalveti@rsalveti.net>  Sun, 22 May 2016 21:21:36 -0300
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu3) yakkety; urgency=medium
+
+  * Porting to kernel 4.6.
+
+ -- Ricardo Salveti de Araujo <rsalveti@rsalveti.net>  Thu, 19 May 2016 16:36:14 -0300
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu2) xenial; urgency=low
+
+  * 4.4 kernel porting.  (LP: #1516013)
+
+ -- Andy Whitcroft <apw@ubuntu.com>  Fri, 27 Nov 2015 11:54:45 +0000
+
+rtl8812au (4.3.8.12175.20140902+dfsg-0ubuntu1) wily; urgency=medium
+
+  * New dsfg orig tarball
+    - Removing files without a proper copyright/license
+
+ -- Ricardo Salveti de Araujo <rsalveti@rsalveti.net>  Mon, 19 Oct 2015 15:17:22 -0200
+
+rtl8812au (4.3.8.12175.20140902-0ubuntu1) wily; urgency=medium
+
+  * Initial release (LP: #1501194)
+
+ -- Ricardo Salveti de Araujo <rsalveti@rsalveti.net>  Wed, 30 Sep 2015 00:30:45 -0300

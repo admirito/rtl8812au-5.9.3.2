@@ -1,0 +1,14 @@
+--- a/include/autoconf.h
++++ b/include/autoconf.h
+@@ -308,9 +308,9 @@
+ /*
+  * Debug Related Config
+  */
+-#define DBG	1
++#define DBG	0
+ 
+-#define DBG_CONFIG_ERROR_DETECT
++//#define DBG_CONFIG_ERROR_DETECT
+ /* #define DBG_CONFIG_ERROR_DETECT_INT */
+ /* #define DBG_CONFIG_ERROR_RESET */
+ 
