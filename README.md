@@ -1,5 +1,7 @@
 # rtl8812au-5.9.3.2
 
+Archived on 2026-11-01, read-only: Ubuntu DKMS packaging for this Realtek WiFi driver, on the debian branch, 2021
+
 ## Realtek 8812AU driver version 5.9.3.2
 
 Only supports 8812AU chipset.
